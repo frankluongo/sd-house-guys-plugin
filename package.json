@@ -1,12 +1,12 @@
 {
-  "name": "wordpress-block-theme-template-2023",
+  "name": "sd-house-guys-plugin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "MODE=production node --env-file=.env build.mjs",
     "deploy": "MODE=production node --env-file=.env deploy.mjs",
-    "dev": "MODE=development nodemon --env-file=.env build.mjs"
+    "dev": "MODE=development node --env-file=.env build.mjs"
   },
   "keywords": [],
   "author": "",

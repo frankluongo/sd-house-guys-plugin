@@ -1,0 +1,26 @@
+@layer podio {
+  .podio-form,
+  .podio-form * {
+    box-sizing: border-box;
+  }
+
+  .podio-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+
+  .podio-form label span {
+    display: block;
+  }
+
+  .podio-form label input {
+    display: block;
+    min-height: 40px;
+    width: 100%;
+  }
+}

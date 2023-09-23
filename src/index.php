@@ -1,3 +1,2 @@
 <?php
-
-echo "Hello World!";
+// silence is golden, pony boy
