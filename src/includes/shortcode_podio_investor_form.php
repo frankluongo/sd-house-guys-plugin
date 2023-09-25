@@ -8,10 +8,10 @@ function enqueue_podio_investor_form_assets()
 add_action('wp_enqueue_scripts', 'enqueue_podio_investor_form_assets');
 
 
-function podio_investor_form()
+function podio_investor_form($atts)
 {
   ob_start(); // Start output buffering
-  include(sd_house_guys_plugin_path() . 'templates/podio-investor-form/podio-investor-form.php');
+  include(plugins_url('templates/podio-investor-form/podio-investor-form.php', __DIR__));
   $output = ob_get_clean(); // Get the contents of the included file and clean the buffer
   return $output;
 }

@@ -31,7 +31,7 @@ function podioForm(form) {
       body,
     };
     submitBtn.innerText = "Submitting...";
-    const res = await fetch("/wp-json/podio/v1/sd", options);
+    const res = await fetch("/wp-json/podio/v1/investor-form", options);
     const data = await res.json();
     if (data?.status === "success") {
       submitBtn.innerText = "Success!";

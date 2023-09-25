@@ -23,4 +23,8 @@
     min-height: 40px;
     width: 100%;
   }
+
+  .podio-form button {
+    text-transform: uppercase;
+  }
 }

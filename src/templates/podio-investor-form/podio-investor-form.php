@@ -7,5 +7,5 @@
     <span>Email</span>
     <input type="email" name="email" required="">
   </label>
-  <button class="elementor-button elementor-size-sm" type="submit">Submit</button>
+  <button class="elementor-button elementor-size-md" type="submit"><?php echo $atts['text']; ?></button>
 </form>
